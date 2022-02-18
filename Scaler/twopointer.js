@@ -40,8 +40,7 @@ let B = 82;
           }
         }
       }  
-      console.log("-1");
-      console.log([-1])
+    
       return;
   }
 

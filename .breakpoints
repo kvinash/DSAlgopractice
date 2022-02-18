@@ -1,3 +1,26 @@
 {
-  "files": {}
+  "files": {
+    "Scaler/largestArea.js": [
+      {
+        "id": "9af0abbd-0b99-4e1a-b0ee-97c0b8a3f89d",
+        "line": 41,
+        "version": 107,
+        "index": 840
+      },
+      {
+        "id": "877ec7bf-cde8-447f-9803-d4d3e4856f80",
+        "line": 52,
+        "version": 107,
+        "index": 1158
+      }
+    ],
+    "index.js": [
+      {
+        "id": "31d542f4-a941-426d-8873-1f5ef5dede41",
+        "line": 66,
+        "version": 3756,
+        "index": 1846
+      }
+    ]
+  }
 }
