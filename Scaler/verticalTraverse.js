@@ -41,15 +41,16 @@ let verticalTraversel2 = (A) => {
   this.dist = 0;
   this.queue.push({dist:this.dist, node:A});
   this.objectJson = {};
-
+ let ans = [];
 
 
     while(this.queue.length>0){
-     
+     console.log(this.queue)
       let ele = this.queue.shift();
       let dist = ele.dist
     if(!this.objectJson[ele.dist]){
       this.objectJson[ele.dist] = ele.node.data;
+      ans.push(ele.node.data)
     }
     if(ele.node.left){
      this.queue.push({node: ele.node.left, dist:dist-1})
@@ -59,6 +60,7 @@ let verticalTraversel2 = (A) => {
     }
       
   }
-    
+    return ans
+
 }
-console.log("ans",verticalTraversel(tree))
+console.log("ans",verticalTraversel2(tree))

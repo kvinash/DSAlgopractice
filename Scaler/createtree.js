@@ -1,6 +1,6 @@
-let str = "11 9 6 17 23 7 -1 -1 -1 -1 -1 -1";
-let nodeInput = str.split(" ");
-console.log(str);
+// let str = "11 9 6 17 23 7 -1 -1 -1 -1 -1 -1";
+// let nodeInput = str.split(" ");
+// console.log(str);
 
 function Treenode(data){
   this.data = data;
